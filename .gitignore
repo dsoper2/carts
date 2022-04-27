@@ -102,9 +102,10 @@ crashlytics-build.properties
 fabric.properties
 # Created by .ignore support plugin (hsz.mobi)
 
-# Maven builds
+# Maven and docker builds
 */target
 */*/target
+docker/carts/*.jar
 
 # AWS ECS install scripts generates an SSH key file
 weave-ecs-demo-key.pem
